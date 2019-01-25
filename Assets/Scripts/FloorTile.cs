@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FloorTile : MonoBehaviour
+public class FloorTile : Tile
 {
     private static int _totalCells = 0;
     private static int _cleanCells = 0;
-    [SerializeField] private Transform _playerPositionTransform;
     [SerializeField] private SpriteRenderer _spriteComponent;
+    [SerializeField] private Sprite _cleanSprite;
 
     private bool _isClean = false;
 
@@ -23,16 +23,12 @@ public class FloorTile : MonoBehaviour
         }
     }
 
-    public Vector3 playerMarker{
-        get{
-            return _playerPositionTransform.position;
-        }
-    }
-
     public void Clean(){
         if(!_isClean){
             _isClean = true;
             _cleanCells++;
+            _spriteComponent.sprite = _cleanSprite;
+            print("Clean tiles: "+_cleanCells+"/"+_totalCells);
         }
     }
 
