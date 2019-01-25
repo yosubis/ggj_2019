@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3565943461324660638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.58731496, y: 1.2979313, z: 0.2010621}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: d82e2131cf3843841b1fe6be6fd427de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1a15d6a9728ee84f801d7113e5c9ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _speed: 1
 --- !u!114 &5006433543154870686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +103,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3565943461324660638}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbbaaaba1df81c044a0406b22259550a, type: 3}
+  m_Script: {fileID: 11500000, guid: c3ae74c49df8053478fe413d25a5a3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _maxEnergy: 10
+  _depletionPerSecond: 1
+  _rechargePerSecond: 0.8
+  _batteryGraphic: {fileID: 0}
+  _lowPowerColor: {r: 0.8301887, g: 0.019579919, b: 0.019579919, a: 1}
+  _highPowerColor: {r: 0, g: 0.8113208, b: 0.015908202, a: 1}

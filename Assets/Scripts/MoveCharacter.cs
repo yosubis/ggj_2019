@@ -16,9 +16,21 @@ public class MoveCharacter : MonoBehaviour
 	private float _moveCurrentDistance;
 	private float _moveTimeStart;
 
+	private Tile _targetTile;
+
+	private Battery battery;
+
+	void Awake(){
+		battery = GetComponent<Battery>();
+	}
+
     private bool Move(Vector3 direction){
 		if(Physics.Raycast(transform.position, direction, out _hit, 1.0f, LayerMask.GetMask("Floor"))){
-			_toPosition = _hit.collider.gameObject.GetComponent<FloorTile>().playerMarker;
+			if(_targetTile != null && _targetTile.GetType() == typeof(Station)){
+				((Station)_targetTile).Undock(battery);
+			}
+			_targetTile = _hit.collider.gameObject.GetComponent<Tile>();
+			_toPosition = _targetTile.playerMarker;
 			_fromPosition = transform.position;
 			//TODO Import dotween from store and use it to move the character. once the move is complete, call a method to set _isMoving to false
 			_isMoving = true;
@@ -29,18 +41,20 @@ public class MoveCharacter : MonoBehaviour
     }
 
     private void Update(){
-        if(!_isMoving){
-            if(Input.GetKey(KeyCode.LeftArrow)){
-                Move(Vector3.left);
-            }else if(Input.GetKey(KeyCode.RightArrow)){
-				Move(Vector3.right);
-			}else if(Input.GetKey(KeyCode.UpArrow)){
-				Move(Vector3.up);
-			}else if(Input.GetKey(KeyCode.DownArrow)){
-				Move(Vector3.down);
+		if(battery.hasEnergy){
+			if(!_isMoving){
+				if(Input.GetKey(KeyCode.LeftArrow)){
+					Move(Vector3.left);
+				}else if(Input.GetKey(KeyCode.RightArrow)){
+					Move(Vector3.right);
+				}else if(Input.GetKey(KeyCode.UpArrow)){
+					Move(Vector3.up);
+				}else if(Input.GetKey(KeyCode.DownArrow)){
+					Move(Vector3.down);
+				}
+			}else{
+				AnimateMove();
 			}
-        }else{
-			AnimateMove();
 		}
     }
 
@@ -51,6 +65,12 @@ public class MoveCharacter : MonoBehaviour
 		if(transform.position == _toPosition){
 			transform.position = _toPosition;
 			_isMoving = false;
+			if(_targetTile.GetType() == typeof(FloorTile)){
+				((FloorTile)_targetTile).Clean();
+			}
+			if(_targetTile.GetType() == typeof(Station)){
+				((Station)_targetTile).Dock(battery);
+			}
 		}
 	}
 }
