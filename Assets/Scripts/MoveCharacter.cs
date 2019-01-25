@@ -5,6 +5,7 @@ using UnityEngine;
 public class MoveCharacter : MonoBehaviour
 {
     private bool _isMoving = false;
+	private bool _canMove = true;
     private static LayerMask _floorLayer;
     private RaycastHit _hit;
 
@@ -42,7 +43,7 @@ public class MoveCharacter : MonoBehaviour
 
     private void Update(){
 		if(battery.hasEnergy){
-			if(!_isMoving){
+			if(_canMove && !_isMoving){
 				if(Input.GetKey(KeyCode.LeftArrow)){
 					Move(Vector3.left);
 				}else if(Input.GetKey(KeyCode.RightArrow)){
@@ -70,6 +71,10 @@ public class MoveCharacter : MonoBehaviour
 			}
 			if(_targetTile.GetType() == typeof(Station)){
 				((Station)_targetTile).Dock(battery);
+				if(FloorTile.cleanCells == FloorTile.totalCells){
+					print("All is Clean!!!");
+					_canMove = false;
+				}
 			}
 		}
 	}
