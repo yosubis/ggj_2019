@@ -16,6 +16,8 @@ public class Battery : MonoBehaviour
 	[SerializeField] private Color _highPowerColor;
 	private float _batteryGraphicWidth = 80;
 
+	[SerializeField] private GameObject _failureScreen;
+
 	void Awake(){
 		_currentEnergy = _maxEnergy;
 		_isCharging = true;
@@ -51,7 +53,9 @@ public class Battery : MonoBehaviour
 			_batteryGraphic.color = Color.Lerp(_lowPowerColor, _highPowerColor, energyPct);
 			_batteryGraphic.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _batteryGraphicWidth * energyPct);
 		}else{
+			//TODO get the MoveCharacter component, check if the target tile is not a docking station. If it is not, die
 			//print("Death!!!!!!");
+			_failureScreen.SetActive(true);
 		}
 	}
 

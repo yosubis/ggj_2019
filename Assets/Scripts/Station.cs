@@ -7,6 +7,7 @@ public class Station : Tile
     private static List<Station> _allStations = new List<Station>();
 
 	public static Station GetRandomStation(){
+		print(_allStations.Count);
 		return _allStations[Random.Range(0, _allStations.Count)];
 	}
 

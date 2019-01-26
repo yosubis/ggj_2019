@@ -17,16 +17,26 @@ public class MoveCharacter : MonoBehaviour
 	private float _moveCurrentDistance;
 	private float _moveTimeStart;
 
-	private Tile _targetTile;
+	private Tile _targetTile = null;
 
 	private Battery battery;
+
+	[SerializeField] private GameObject _successScreen;
 
 	void Awake(){
 		battery = GetComponent<Battery>();
 	}
 
 	void Start(){
-		_targetTile = Station.GetRandomStation();
+		StartCoroutine(WaitingForLevel());
+	}
+
+	private IEnumerator WaitingForLevel(){
+		while(_targetTile == null){
+			_targetTile = Station.GetRandomStation();
+			yield return null;
+		}
+		print("Target: "+_targetTile);
 		transform.position = _targetTile.playerMarker;
 		((Station)_targetTile).Dock(battery);
 	}
@@ -78,7 +88,7 @@ public class MoveCharacter : MonoBehaviour
 			if(_targetTile.GetType() == typeof(Station)){
 				((Station)_targetTile).Dock(battery);
 				if(FloorTile.cleanCells == FloorTile.totalCells){
-					print("All is Clean!!!");
+					_successScreen.SetActive(true);
 					_canMove = false;
 				}
 			}

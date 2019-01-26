@@ -28,7 +28,7 @@ public class FloorTile : Tile
             _isClean = true;
             _cleanCells++;
             _spriteComponent.sprite = _cleanSprite;
-            print("Clean tiles: "+_cleanCells+"/"+_totalCells);
+            //print("Clean tiles: "+_cleanCells+"/"+_totalCells);
         }
     }
 
