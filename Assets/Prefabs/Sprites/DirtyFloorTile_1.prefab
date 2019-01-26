@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5474995363677785561}
   - component: {fileID: 5050406182451382129}
   m_Layer: 10
-  m_Name: FloorTile
+  m_Name: DirtyFloorTile_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerPositionTransform: {fileID: 6690809767519585359}
   _spriteComponent: {fileID: 1369329337031379125}
-  _cleanSprite: {fileID: 21300000, guid: c0dc1eeee519d274385d6397dfae2d19, type: 3}
+  _cleanSprite: {fileID: 21300000, guid: 0755a6b3117df5948bd62f2011fc9465, type: 3}
 --- !u!1 &1393747705276721048
 GameObject:
   m_ObjectHideFlags: 0
