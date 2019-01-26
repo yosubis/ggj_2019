@@ -18,6 +18,7 @@ public class Battery : MonoBehaviour
 
 	void Awake(){
 		_currentEnergy = _maxEnergy;
+		_isCharging = true;
 	}
 
 	private float energyPct{
@@ -33,7 +34,7 @@ public class Battery : MonoBehaviour
 	}
 
 	public void Fill(){
-		print("Energy: "+_currentEnergy+"/"+_maxEnergy);
+		//print("Energy: "+_currentEnergy+"/"+_maxEnergy);
 		if(_currentEnergy < _maxEnergy){
 			_currentEnergy += _rechargePerSecond * Time.deltaTime;
 			_batteryGraphic.color = Color.Lerp(_lowPowerColor, _highPowerColor, energyPct);
@@ -44,13 +45,13 @@ public class Battery : MonoBehaviour
 	}
 
 	public void Deplete(){
-		print("Energy: "+_currentEnergy+"/"+_maxEnergy);
+		//print("Energy: "+_currentEnergy+"/"+_maxEnergy);
 		if(_currentEnergy > 0){
 			_currentEnergy -= _depletionPerSecond * Time.deltaTime;
 			_batteryGraphic.color = Color.Lerp(_lowPowerColor, _highPowerColor, energyPct);
 			_batteryGraphic.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _batteryGraphicWidth * energyPct);
 		}else{
-			print("Death!!!!!!");
+			//print("Death!!!!!!");
 		}
 	}
 

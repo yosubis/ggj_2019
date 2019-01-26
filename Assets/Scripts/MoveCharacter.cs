@@ -25,6 +25,12 @@ public class MoveCharacter : MonoBehaviour
 		battery = GetComponent<Battery>();
 	}
 
+	void Start(){
+		_targetTile = Station.GetRandomStation();
+		transform.position = _targetTile.playerMarker;
+		((Station)_targetTile).Dock(battery);
+	}
+
     private bool Move(Vector3 direction){
 		if(Physics.Raycast(transform.position, direction, out _hit, 1.0f, LayerMask.GetMask("Floor"))){
 			if(_targetTile != null && _targetTile.GetType() == typeof(Station)){
