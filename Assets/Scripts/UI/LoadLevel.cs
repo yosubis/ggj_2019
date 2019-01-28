@@ -19,6 +19,7 @@ public class LoadLevel : MonoBehaviour
 	   //_fader.DOFade(1f, 1.5f).OnComplete(CompletedFade);
 	   //Load scenes async
 	   //when finished loading, unload this scene
+	   FloorTile.ResetCount();
 	   _currentlyLoadedScene = _levelSceneName;
 	   //StartCoroutine(LoadScene(loadBaseScene));
 	   SceneManager.LoadScene(_currentlyLoadedScene, LoadSceneMode.Single);
@@ -52,8 +53,9 @@ public class LoadLevel : MonoBehaviour
    }
 
    public void Reload(){
-	   //StartCoroutine(LoadScene(true));
-	   SceneManager.LoadScene(_currentlyLoadedScene, LoadSceneMode.Single);
+		//StartCoroutine(LoadScene(true));
+		FloorTile.ResetCount();
+		SceneManager.LoadScene(_currentlyLoadedScene, LoadSceneMode.Single);
 		SceneManager.LoadScene(_baseLevelSceneName, LoadSceneMode.Additive);
 
    }

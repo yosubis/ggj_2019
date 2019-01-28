@@ -84,6 +84,7 @@ public class MoveCharacter : MonoBehaviour
 			_isMoving = false;
 			if(_targetTile.GetType() == typeof(FloorTile)){
 				((FloorTile)_targetTile).Clean();
+				print("Clean: "+FloorTile.cleanCells+"/"+FloorTile.totalCells);
 			}
 			if(_targetTile.GetType() == typeof(Station)){
 				((Station)_targetTile).Dock(battery);

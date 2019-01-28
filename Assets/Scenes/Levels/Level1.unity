@@ -499,6 +499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -648,6 +653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -1183,6 +1193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DirtyFloorTile_5
       objectReference: {fileID: 0}
+    - target: {fileID: 4093272722768193271, guid: 49a7f9761ad7ad14fadb7dcb522a2e62,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5561442940025278269, guid: 49a7f9761ad7ad14fadb7dcb522a2e62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1408,6 +1423,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1483,6 +1503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1557,6 +1582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -1782,6 +1812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table tv
+      objectReference: {fileID: 0}
+    - target: {fileID: 8769413111727484375, guid: 377d5b6cb3a0c8447ab773594808e002,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6848024386064870081, guid: 377d5b6cb3a0c8447ab773594808e002,
         type: 3}
@@ -2093,6 +2128,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FloorTile
       objectReference: {fileID: 0}
+    - target: {fileID: 1138137317320046771, guid: 6c87fef935db08747a2ec5ac636b5b4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8803260625897738617, guid: 6c87fef935db08747a2ec5ac636b5b4f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2318,6 +2358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2392,6 +2437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -2618,6 +2668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2768,6 +2823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2842,6 +2902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -3055,6 +3120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -3280,6 +3350,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -3665,6 +3740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3740,6 +3820,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3814,6 +3899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -3965,6 +4055,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4114,6 +4209,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -4339,6 +4439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -4640,6 +4745,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4714,6 +4824,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -4865,6 +4980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5015,6 +5135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DirtyFloorTile_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1217810148521363120, guid: ca52b14d5f8caa344b74fbea44c11d6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7279656314719973242, guid: ca52b14d5f8caa344b74fbea44c11d6e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5089,6 +5214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -5399,6 +5529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5548,6 +5683,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -5848,6 +5988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -6458,6 +6603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6532,6 +6682,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -6683,6 +6838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6757,6 +6917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -6983,6 +7148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7057,6 +7227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -7208,6 +7383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7283,6 +7463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7357,6 +7542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -7625,6 +7815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -8216,6 +8411,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8441,6 +8641,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8590,6 +8795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -8816,6 +9026,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8890,6 +9105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -9041,6 +9261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9115,6 +9340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DirtyFloorTile_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217810148521363120, guid: ca52b14d5f8caa344b74fbea44c11d6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7279656314719973242, guid: ca52b14d5f8caa344b74fbea44c11d6e,
         type: 3}
@@ -9266,6 +9496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9340,6 +9575,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -9993,6 +10233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10067,6 +10312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -10227,6 +10477,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10301,6 +10556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FloorTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 1138137317320046771, guid: 6c87fef935db08747a2ec5ac636b5b4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8803260625897738617, guid: 6c87fef935db08747a2ec5ac636b5b4f,
         type: 3}
@@ -10606,6 +10866,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10831,6 +11096,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10980,6 +11250,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -11356,6 +11631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11656,6 +11936,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11805,6 +12090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -11956,6 +12246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12105,6 +12400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -12256,6 +12556,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12405,6 +12710,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: washbasin
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020021415918444751, guid: 1ba8959970b54764da295bd003784e68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3622163415408547750, guid: 1ba8959970b54764da295bd003784e68,
         type: 3}
@@ -12560,6 +12870,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12634,6 +12949,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -12785,6 +13105,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12859,6 +13184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -13085,6 +13415,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13160,6 +13495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13234,6 +13574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stove top
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791192273148723782, guid: aa54058463beee34aa57bf2111e9b883,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8167268280663364334, guid: aa54058463beee34aa57bf2111e9b883,
         type: 3}
@@ -13538,6 +13883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -13989,6 +14339,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14064,6 +14419,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14138,6 +14498,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283761291357774715, guid: 140bf6d67c1c2b44eaab13febfb01705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358196597747448459, guid: 140bf6d67c1c2b44eaab13febfb01705,
         type: 3}
@@ -14522,6 +14887,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: microwave
+      objectReference: {fileID: 0}
+    - target: {fileID: 215762983668978554, guid: 61c709014da426246b45ea9835901f2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3138764631813153960, guid: 61c709014da426246b45ea9835901f2a,
         type: 3}

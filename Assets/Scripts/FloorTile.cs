@@ -34,5 +34,11 @@ public class FloorTile : Tile
 
     void Awake(){
         _totalCells++;
+        gameObject.name = "Cell_"+_totalCells;
+    }
+
+    public static void ResetCount(){
+        _totalCells = 0;
+        _cleanCells = 0;
     }
 }
